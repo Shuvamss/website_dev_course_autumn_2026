@@ -18,3 +18,7 @@ h2 {
 p {
     line-height: 1.6;
 }
+body {
+    margin: 30px;
+    padding: 20px;
+}
