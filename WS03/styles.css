@@ -124,6 +124,6 @@ input[type="submit"] {
 .quote::after {
     content: '”';
     font-size: 40px;
-    color: purple;
+    color: darkblue;
 }
 
