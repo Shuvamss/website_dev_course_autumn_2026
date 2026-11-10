@@ -112,7 +112,7 @@ input[type="submit"] {
     position: relative;
     padding-left: 20px;
     font-style: italic;
-    color: purple;
+    color: darkblue;
 }
 
 .quote::before {
