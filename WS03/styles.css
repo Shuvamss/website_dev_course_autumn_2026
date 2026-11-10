@@ -50,3 +50,17 @@ input[type="submit"] {
     color: white;
     cursor: pointer;
 }
+
+/* Task 1: CSS Transitions */
+
+.transition-button {
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+    background-color: lightcoral;
+}
