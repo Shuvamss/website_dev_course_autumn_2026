@@ -106,24 +106,27 @@ input[type="submit"] {
 }
 
 
+
 /* Task 5: CSS Pseudo-elements */
 
 .quote {
-    position: relative;
-    padding-left: 20px;
     font-style: italic;
-    color: darkblue;
+    color: purple;
+    padding-left: 20px;
 }
 
 .quote::before {
     content: '“';
-    font-size: 60px;
-    color: darkblue;
+    font-size: 30px;
+    color: purple;
+    vertical-align: middle;
 }
 
 .quote::after {
     content: '”';
-    font-size: 60px;
-    color: darkblue;
+    font-size: 30px;
+    color: purple;
+    vertical-align: middle;
 }
+
 
