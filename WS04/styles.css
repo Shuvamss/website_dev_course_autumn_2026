@@ -1,0 +1,132 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: darkgreen;
+    font-size: 18px;
+}
+h2 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+}
+body {
+    margin: 30px;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightblue;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+/* Task 1: CSS Transitions */
+
+.transition-button {
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+    background-color: lightcoral;
+}
+
+/* Task 2: CSS Animations */
+
+.animation-box {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+    position: relative;
+    animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100px;
+    }
+}
+
+/* Task 3: CSS Pseudo-classes */
+
+.pseudo-list li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.pseudo-list li:nth-child(even) {
+    background-color: white;
+}
+
+/* Task 4: CSS Filters */
+
+.filter-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.filter-image:hover {
+    filter: grayscale(0%);
+}
+
+
+
+/* Task 5: CSS Pseudo-elements */
+
+.quote {
+    font-style: italic;
+    color: purple;
+    padding-left: 20px;
+}
+
+.quote::before {
+    content: '“';
+    font-size: 30px;
+    color: purple;
+    vertical-align: middle;
+}
+
+.quote::after {
+    content: '”';
+    font-size: 30px;
+    color: purple;
+    vertical-align: middle;
+}
+
+
