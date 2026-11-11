@@ -164,13 +164,13 @@ input[type="submit"] {
     text-align: center;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 600px) {
     .responsive-box {
         background-color: lightcoral;
     }
 }
 
-@media (min-width: 1501px) {
+@media (min-width: 601px) {
     .responsive-box {
         background-color: lightseagreen;
     }
