@@ -143,5 +143,19 @@ input[type="submit"] {
     text-align: center;
 }
 
+/* Task 3: CSS Flexbox Layout */
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
 
 
