@@ -157,5 +157,24 @@ input[type="submit"] {
     text-align: center;
 }
 
+/* Task 4: CSS Media Queries */
+
+.responsive-box {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .responsive-box {
+        background-color: lightcoral;
+    }
+}
+
+@media (min-width: 601px) {
+    .responsive-box {
+        background-color: lightseagreen;
+    }
+}
+
 
 
