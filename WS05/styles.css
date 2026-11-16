@@ -182,8 +182,12 @@ input[type="submit"] {
 
 .column {
     flex: 1;
-    padding: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
 }
+
 
 @media (max-width: 600px) {
     .column {
