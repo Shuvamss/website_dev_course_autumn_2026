@@ -186,13 +186,11 @@ input[type="submit"] {
     background-color: lightblue;
     border: 1px solid blue;
     text-align: center;
+    box-sizing: border-box;
 }
-
 
 @media (max-width: 600px) {
     .column {
-        flex: 100%;
+        flex: 0 0 100%;
     }
 }
-
-
