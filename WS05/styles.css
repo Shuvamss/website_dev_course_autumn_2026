@@ -214,3 +214,23 @@ input[type="submit"] {
         background-color: lightblue;
     }
 }
+.responsive-nav .nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+}
+
+.responsive-nav .menu-toggle {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .responsive-nav .nav-list {
+        display: none;
+    }
+
+    .responsive-nav .menu-toggle {
+        display: block;
+    }
+}
