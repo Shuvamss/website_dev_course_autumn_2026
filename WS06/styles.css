@@ -240,3 +240,11 @@ input[type="submit"] {
         padding: 10px;
     }
 }
+/* Workshop 6 - Task 2: Bootstrap Grid */
+
+.container .row > .col-md-4 {
+    background-color: lightblue;
+    border: 1px solid blue;
+    padding: 20px;
+    text-align: center;
+}
